@@ -1,0 +1,1 @@
+select rental_id,bike_id,duration from bigquery-public-data.london_bicycles.cycle_hire where duration>10000;

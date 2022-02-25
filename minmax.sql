@@ -1,0 +1,1 @@
+select min(start_date) as first_start,max(start_date) as last_start from bigquery-public-data.london_bicycles.cycle_hire 

@@ -1,0 +1,1 @@
+select rental_id,bike_id,start_station_id,end_station_id from bigquery-public-data.london_bicycles.cycle_hire where end_station_id=start_station_id;

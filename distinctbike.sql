@@ -1,0 +1,1 @@
+select count(DISTINCT bike_id) as num_bike from bigquery-public-data.london_bicycles.cycle_hire 
